@@ -1,0 +1,80 @@
+button:hover {
+    font-size: 1.1em;
+    background-color: hsl(106, 90%, 70%);
+}
+
+button:active {
+    font-size: 1.1em;
+    background-color: hsl(0, 90%, 70%);
+}
+
+a:link {
+    color: rgb(116, 196, 233);
+}
+
+a:hover {
+    color: rgb(110, 213, 226);
+    font-size: 1.1em;
+}
+
+a:active {
+    color: rgb(21, 101, 223);
+    font-size: 1.1em;
+}
+
+a:visited {
+    color: rgb(143, 138, 138);
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+li:not(:hover) {
+    background-color: rgb(182, 182, 157);
+}
+
+li:nth-child(3n+2) {
+    background-color: rgb(189, 189, 123);
+}
+
+#greeting p{
+    background-color: rgb(127, 175, 238);
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
+
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+p::selection {
+    color: rgb(87, 230, 129);
+    background-color: rgb(54, 50, 50);
+}
+
+#apple::after {
+    content: "🍎";
+}
+
+#orange::after {
+    content: "🍊";
+}
+
+#banana::after {
+    content: "🍌";
+}
+
+#fruit li::marker {
+    content: "✓";
+    color: rgb(43, 235, 43);
+}
